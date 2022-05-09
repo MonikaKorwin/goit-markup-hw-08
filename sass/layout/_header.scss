@@ -1,34 +1,23 @@
 .navigation {
- display: flex;
- align-items: baseline;
- width: 1158px;
- align-items: center;
- margin: 16px auto;
-
+  display: flex;
+  align-items: baseline;
+  align-items: center;
+  margin: 16px auto;
+}
 &__links {
-display: display;
-align-items: baseline;
-background: #ffffff;
-// height: 80px;
+  display: display;
+  align-items: baseline;
+  background: #ffffff;
+  // height: 80px;
 }
 &__list {
-display: none;
+  display: none;
 }
 &__socialicon {
- display: none;
-} 
+  display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
+// ---------------TABLET---------------
 
 // ---------------------------------------------------- HEADER-LEFT--------------------------------------------------
 
@@ -124,7 +113,6 @@ display: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .navigation__socialicon-link-mail {
   cursor: pointer;
