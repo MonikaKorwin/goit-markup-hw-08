@@ -1,3 +1,4 @@
+@media screen and (min-width: 480px){
 .logo {
   width: 134px;
   height: 28px;
@@ -33,6 +34,34 @@
   font-style: normal;
   color: #000000;
 }
+}
+
+// ------------------tablet------------
+
+@media screen and (min-width: 768px){ 
+.logo:first-child {
+  margin-right: 83px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // -----------------------
 // .logo {
