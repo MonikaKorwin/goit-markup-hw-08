@@ -677,60 +677,63 @@ img {
   fill: #afb1b8;
 }
 
-.clients__tittle {
-  display: block;
-  margin: 0 auto;
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.666px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.clients__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 94px;
-}
-
-.clients__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 170px;
-  height: 92px;
-  background-color: #ffffff;
-  border-width: 1px;
-  border-color: #afb1b8;
-  border-style: solid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 4px;
-}
-
-.clients__link:not(:last-child) {
-  margin-right: 30px;
-}
-
-.clients__link:hover, .clients__link:focus {
-  border-color: var(--main-color);
+@media screen and (min-width: 320px) {
+  .clients__tittle {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.178px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .clients__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .clients__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 180px;
+    height: 92px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: #afb1b8;
+    border-style: solid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .clients__link:not(:last-child) {
+    margin-right: 30px;
+  }
+  .clients__link:hover, .clients__link:focus {
+    border-color: var(--main-color);
+  }
+  .container-ourClients {
+    max-width: 450px;
+  }
 }
 
 .clients__icon {
