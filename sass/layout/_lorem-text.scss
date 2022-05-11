@@ -1,11 +1,9 @@
-@media screen and (min-width: 320px)  {
+@media screen and (min-width: 320px) {
   .lorem__ipsum {
     // height: 884px;
     top: 610px;
     font-family: var(--main-font);
     color: #212121;
-
-    
 
     &-tittle {
       font-style: normal;
@@ -39,6 +37,57 @@
     align-items: center;
     margin: 0 auto;
     justify-content: center;
+  }
+}
+
+// --------------TABLET-------------
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .lorem__ipsum {
+    top: 610px;
+    font-family: var(--main-font);
+    color: #212121;
+
+    &-tittle {
+     
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.143;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      align-items: center;
+      margin: 0 auto;
+      justify-content: center;
+      padding-bottom: 10px;
+      text-align: left;
+      
+    }
+    &-item-p {
+      width: 354px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.714;
+      letter-spacing: 0.03em;
+      color: #757575;
+      text-transform: none;
+      margin-bottom: 180px;
+     
+    }
+  }
+
+  .container__lorem-ipsum {
+    display: flex;
+    flex-wrap: wrap;
+    height: 372px;
+    position: absolute;
+    top: 690px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    
   }
 }
 
