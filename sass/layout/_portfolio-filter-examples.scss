@@ -54,9 +54,65 @@
 
 // =============TABLET============
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .filers__examples {  
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 738px;  
+  justify-content:space-between;
+  }
+
+
+.filter__examples-images {
+  position: relative;
+  top:60px;
+  max-width: 354px;
+  height: 440px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin:  auto;
+  overflow: hidden;
+  margin-bottom: 30px;
+  
+  &:hover .img-wrapper {
+    transform: translatey(0);
+  }
+}
+.filter__examples-images {
+  &-item {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    text-align: left;
+    padding-left: 24px;
+  }
+  &-category {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: left;
+    padding-left: 24px;
+  }
 }
 
 
+
+
+}
 
 
 
