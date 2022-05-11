@@ -110,7 +110,7 @@
 
 // ------------------------TABLET--------------
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .team {
     background: #f5f4fa;
     min-width: 768px;
@@ -118,8 +118,7 @@
     margin: 0 auto;
     text-decoration: none;
     font-style: none;
-
-    margin-bottom: 94px;
+ 
 
     &__tittle {
       font-family: var(--main-font);
@@ -152,39 +151,66 @@
       margin-bottom: 30px;
     }
   }
+  .team__member-name {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    &-career {
+   
+      font-family: var(--main-font);
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 1.187;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #757575;
+      margin-top: 10px;
+      margin-bottom: 16x;
+    }
+  }
+
+  // // ------------------------------------ICONS------------------------------------------------------
+  .team__member-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 206px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 18px;
+
+    &-item-link {
+      display: flex;
+      width: 44px;
+      height: 44px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+    }
+    &-item-link:hover,
+    &-item-link:focus {
+      background-color: var(--main-color);
+      fill: #ffffff;
+    }
+    &-item-link:hover .social-icon {
+      fill: #ffffff;
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
