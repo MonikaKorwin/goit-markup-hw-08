@@ -749,18 +749,16 @@ img {
 
 @media screen and (min-width: 320px) {
   .footer-html {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    padding-top: 60px;
+    height: 603px;
     background: #2f303a;
     margin: 0 auto;
+    text-align: center;
+  }
+  .footer-address-portfolio {
+    display: inline-block;
   }
   .logo-address {
-    /* left: 0px; */
     font-style: none;
     text-decoration: none;
   }
@@ -786,7 +784,7 @@ img {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding-top: 9px;
+    padding-top: 8px;
     margin-left: 0px;
     font-style: none;
     text-decoration: none;
@@ -800,14 +798,13 @@ img {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding-top: 9px;
+    padding-top: 5px;
     margin-left: 0px;
   }
 }
 
 @media screen and (min-width: 320px) {
   .logo__address {
-    position: absolute;
     width: 154px;
     height: 28px;
     /* left: 0px; */
