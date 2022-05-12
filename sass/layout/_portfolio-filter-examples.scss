@@ -21,6 +21,9 @@
     &:hover .img-wrapper {
       transform: translatey(0);
     }
+    &-item{
+      padding-left: 24px;
+    }
   }
   .filter__examples-images {
     &-item {
@@ -46,6 +49,7 @@
       letter-spacing: 0.03em;
       color: #757575;
       text-align: left;
+      padding-left: 24px;
     }
   }
 }

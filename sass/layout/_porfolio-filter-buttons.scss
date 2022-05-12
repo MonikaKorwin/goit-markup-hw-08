@@ -17,6 +17,7 @@
       margin: 0 auto;
       align-items: center;
       margin-top: 60px;
+      position: relative;
     }
   }
 }
@@ -34,10 +35,10 @@
       text-decoration: none;
       width: 572px;
       height: 54px;
-      /* left: 510px; */
-      /* top: 174px; */
-      margin: 0 auto;
+      align-content: center;
       align-items: center;
+
+      margin-left: 30px;
       margin-top: 60px;
     }
   }
@@ -62,8 +63,6 @@
     }
   }
 }
-
-
 
 // .filter {
 //   margin: 0 auto;

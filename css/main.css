@@ -2455,6 +2455,7 @@ justify-content: center; */
         -ms-flex-align: center;
             align-items: center;
     margin-top: 60px;
+    position: relative;
   }
 }
 
@@ -2473,12 +2474,12 @@ justify-content: center; */
     text-decoration: none;
     width: 572px;
     height: 54px;
-    /* left: 510px; */
-    /* top: 174px; */
-    margin: 0 auto;
+    -ms-flex-line-pack: center;
+        align-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-left: 30px;
     margin-top: 60px;
   }
 }
@@ -2633,6 +2634,9 @@ justify-content: center; */
             transform: translatey(0);
   }
   .filter__examples-images-item {
+    padding-left: 24px;
+  }
+  .filter__examples-images-item {
     font-family: var(--main-font);
     font-style: normal;
     font-weight: bold;
@@ -2655,6 +2659,7 @@ justify-content: center; */
     letter-spacing: 0.03em;
     color: #757575;
     text-align: left;
+    padding-left: 24px;
   }
 }
 
