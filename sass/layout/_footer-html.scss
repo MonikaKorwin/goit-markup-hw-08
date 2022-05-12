@@ -79,6 +79,7 @@
     height: 127px;
     justify-content: space-between;
   }
+  
   .footer-html-c {
     display: flex;
     height: 127px;
@@ -140,17 +141,11 @@
 // ----------PC-----------------
 
 @media screen and (min-width: 1200px) {
-
-   .footer-portfolio-hight {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
   .footer-html {
     display: flex;
     padding-top: 60px;
     // height: 252px;
     background: #2f303a;
-    
     margin: 0 auto;
   }
 

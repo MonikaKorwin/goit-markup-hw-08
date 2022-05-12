@@ -1708,10 +1708,6 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-portfolio-hight {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
   .footer-html {
     display: -webkit-box;
     display: -ms-flexbox;
