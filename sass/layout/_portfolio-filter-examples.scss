@@ -58,7 +58,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   
 
-  .xyz {
+  .filers__flex {
     margin: 0 auto;
     align-items: center;
     display: flex;
@@ -117,12 +117,12 @@
 
 @media screen and (min-width: 1200px) {
 
-  .xyz {
+  .filers__flex {
+    max-width: 1200px;   
     margin: 0 auto;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
     justify-content: space-between;
   }
   .filers__examples {
@@ -189,6 +189,7 @@
     margin: auto;
     overflow: hidden;
     margin-right: 30px;
+    margin-bottom: 30px;
 
     &:hover .img-wrapper {
       transform: translatey(0);
