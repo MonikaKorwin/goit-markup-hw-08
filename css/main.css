@@ -549,7 +549,7 @@ img {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/people-bg-tablet.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 768px 400px;
+    background-size: cover;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -564,7 +564,7 @@ img {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/people-bg-tablet@2x.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 768px 400px;
+    background-size: cover;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -600,7 +600,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .people {
-    height: 600px;
+    height: 400px;
     top: 80px;
     left: 0px;
     border: 1px solid #000000;
@@ -612,6 +612,25 @@ img {
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .people {
+    height: 400px;
+    top: 80px;
+    left: 0px;
+    border: 1px solid #000000;
+    background: #2f303a;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/people-bg-PNG.png");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/people-bg-PNG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .people__items {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -628,7 +647,7 @@ img {
     width: 696px;
     height: 120px;
     position: absolute;
-    top: 280px;
+    top: 70px;
     font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
@@ -639,27 +658,54 @@ img {
   }
 }
 
-.button__people {
-  position: absolute;
-  margin-top: 232px;
-  width: 200px;
-  height: 50px;
-  border: none;
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background: var(--main-color);
-  cursor: pointer;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+@media screen and (max-width: 1199px) {
+  .button__people {
+    position: absolute;
+    margin-top: 232px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background: var(--main-color);
+    cursor: pointer;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .button__people {
+    position: absolute;
+    margin-top: 260px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background: var(--main-color);
+    cursor: pointer;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
