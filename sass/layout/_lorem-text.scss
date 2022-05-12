@@ -42,14 +42,13 @@
 
 // --------------TABLET-------------
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .lorem__ipsum {
     top: 610px;
     font-family: var(--main-font);
     color: #212121;
 
     &-tittle {
-     
       font-style: normal;
       font-weight: 700;
       font-size: 14px;
@@ -62,7 +61,6 @@
       justify-content: center;
       padding-bottom: 10px;
       text-align: left;
-      
     }
     &-item-p {
       width: 354px;
@@ -74,7 +72,6 @@
       color: #757575;
       text-transform: none;
       margin-bottom: 180px;
-     
     }
   }
 
@@ -87,11 +84,66 @@
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    
   }
 }
 
 // -------------PC------------
+@media screen and (min-width: 1200px) {
+  .lorem__ipsum {
+    height: 101px;
+    top: 774px;
+    font-family: var(--main-font);
+    color: #212121;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 0 auto;
+    margin-top: 30px;
+
+    &-item {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.143;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      /* align-items: center;
+justify-content: center; */
+      margin: 0 auto;
+      justify-content: center;
+    }
+
+    &-item {
+      flex-basis: 270px;
+    }
+
+    &-item:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &-item-p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.714;
+      letter-spacing: 0.03em;
+      color: #757575;
+      text-transform: none;
+      margin-top: 10px;
+    }
+  }
+
+  .container__lorem-ipsum {
+    display: flex;
+    width: 1200px;
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 94px;
+  }
+}
+
+
+
 
 // .lorem__ipsum {
 //   height: 101px;
