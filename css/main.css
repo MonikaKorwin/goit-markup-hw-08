@@ -112,12 +112,11 @@ img {
 @media screen and (min-width: 1200px) {
   .logo {
     width: 145px;
-    height: 31px;
     left: 0px;
     margin-right: 93px;
-    padding-top: 24px;
     padding-bottom: 25px;
     text-decoration: none;
+    margin-top: 24px;
   }
   .logo__web {
     width: 700px;
@@ -331,14 +330,15 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     width: 1158px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     margin: 0 auto;
+    position: relative;
   }
   .navigation__links {
     display: -webkit-box;
@@ -398,7 +398,8 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 258px;
+    position: absolute;
+    right: 0px;
     height: 16px;
     top: 32px;
   }
@@ -868,13 +869,13 @@ img {
     margin-bottom: 180px;
   }
   .container__lorem-ipsum {
+    max-width: 767px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     height: 372px;
-    position: absolute;
     top: 690px;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -883,6 +884,8 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    position: absolute;
+    margin: auto;
   }
 }
 
@@ -897,6 +900,9 @@ img {
     margin: 0 auto;
     margin-top: 30px;
   }
+  .lorem__ipsum-tittle {
+    text-align: left;
+  }
   .lorem__ipsum-item {
     font-style: normal;
     font-weight: bold;
@@ -904,14 +910,6 @@ img {
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* align-items: center;
-justify-content: center; */
-    margin: 0 auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .lorem__ipsum-item {
     -ms-flex-preferred-size: 270px;
         flex-basis: 270px;
   }
@@ -932,16 +930,16 @@ justify-content: center; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 1200px;
-    padding: 0 15px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    position: absolute;
+    left: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 94px;
+    margin-top: -950px;
   }
 }
 
@@ -1937,7 +1935,7 @@ justify-content: center; */
     margin-left: 316px;
     margin-bottom: 20px;
     position: absolute;
-    top: 2644px;
+    top: 2708px;
   }
   .join__list {
     display: -webkit-box;
@@ -2170,7 +2168,7 @@ justify-content: center; */
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 1199px) {
   .button-newletter-register {
     width: 200px;
     height: 50px;
@@ -2190,6 +2188,31 @@ justify-content: center; */
     text-align: center;
     letter-spacing: 0.06em;
     margin-top: 30px;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .button-newletter-register {
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    position: relative;
+    bottom: 70px;
     color: #ffffff;
   }
 }
@@ -2664,7 +2687,7 @@ justify-content: center; */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .filers__examples {
+  .xyz {
     margin: 0 auto;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -2725,8 +2748,21 @@ justify-content: center; */
 }
 
 @media screen and (min-width: 1200px) {
+  .xyz {
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .filers__examples {
-    width: 1170px;
     height: 1360px;
     margin: 0 auto;
     -webkit-box-align: center;
