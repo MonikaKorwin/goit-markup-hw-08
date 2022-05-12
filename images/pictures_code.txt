@@ -1,0 +1,229 @@
+ !!!!!!!!!!!!!!!!!!!-----------------------TEAM MEMBER------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+    <picture>
+      <source srcset="https://picsum.photos/id/237/400/600" media="(max-width: 600px)">
+      <source srcset="https://picsum.photos/id/237/800/400" media="(min-width: 601px)">
+      <img src="https://picsum.photos/id/237/300/200" alt="Cute puppy">
+    </picture>
+
+
+
+ !!!!!!!!!!!!!!!!!!!-----------------------TEAM MEMBER------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+<div class="team__member">
+              <picture>
+                <source
+                srcset="../images/John_Doe_1-mobil.jpg 1x, images/John_Doe_1-mobil@2x 2x.jpg"
+                media="(min-width: 480px)">
+                <source>
+                </picture>
+              <img src="images/John_Doe_1.jpg" alt="Brown_glasses" width="270" height="260" />
+
+John_Doe_1
+
+    <picture>
+      <source srcset="../images/John_Doe_1-mobil.jpg 1x, images/John_Doe_1-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/John_Doe_1-tablet.jpg 1x, images/John_Doe_1-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/John_Doe_1-PC.jpg 1x, images/John_Doe_1-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/John_Doe_1.jpg" alt="Brown_glasses" width="270" height="260">
+    </picture>
+
+
+John_Doe_2
+
+
+    <picture>
+      <source srcset="../images/John_Doe_2-mobil.jpg 1x, images/John_Doe_2-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/John_Doe_2-tablet.jpg 1x, images/John_Doe_2-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/John_Doe_2-PC.jpg 1x, images/John_Doe_2-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/John_Doe_2.jpg" alt="Brown_glasses" width="270" height="260">
+    </picture>
+
+
+John_Doe_3
+
+    <picture>
+      <source srcset="../images/John_Doe_3-mobil.jpg 1x, images/John_Doe_3-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/John_Doe_3-tablet.jpg 1x, images/John_Doe_3-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/John_Doe_3-PC.jpg 1x, images/John_Doe_3-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/John_Doe_3.jpg" alt="Brown_glasses" width="270" height="260">
+    </picture>
+
+
+John_Doe_4
+
+    <picture>
+      <source srcset="../images/John_Doe_4-mobil.jpg 1x, images/John_Doe_4-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/John_Doe_4-tablet.jpg 1x, images/John_Doe_4-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/John_Doe_4-PC.jpg 1x, images/John_Doe_4-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/John_Doe_4.jpg" alt="Brown_glasses" width="270" height="260">
+    </picture>
+
+
+
+
+ !!!!!!!!!!!!!!!!!!!-----------------------PORTFOLIO------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+Technocrack
+
+    <picture>
+      <source srcset="../images/Technocrack-mobil.jpg 1x, images/Technocrack-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Technocrack-tablet.jpg 1x, images/Technocrack-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Technocrack-PC.jpg 1x, images/Technocrack-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Technocrack.jpg" alt="Technocrack" width="270" height="260">
+    </picture>
+
+
+
+Grafika-New-Orlean
+
+
+
+    <picture>
+      <source srcset="../images/Grafika-New-Orlean-mobil.jpg 1x, images/Grafika-New-Orlean-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Grafika-New-Orlean-tablet.jpg 1x, images/Grafika-New-Orlean-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Grafika-New-Orlean-PC.jpg 1x, images/Grafika-New-Orlean-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Grafika-New-Orlean.jpg" alt="Grafika-New-Orlean-vs-Golden-Star" width="270" height="260">
+    </picture>
+
+
+
+Seafood
+
+  <picture>
+      <source srcset="../images/Seafood-mobil.jpg 1x, images/Seafood-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Seafood-tablet.jpg 1x, images/Seafood-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Seafood-PC.jpg 1x, images/Seafood-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Seafood.jpg" alt="Restauracja-Seafood" width="270" height="260">
+    </picture>
+
+
+
+Projekt-Prime
+
+  <picture>
+      <source srcset="../images/Projekt-Prime-mobil.jpg 1x, images/Projekt-Prime-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Projekt-Prime-tablet.jpg 1x, images/Projekt-Prime-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Projekt-Prime-PC.jpg 1x, images/Projekt-Prime-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Projekt-Prime.jpg" alt="Projekt-Prime" width="270" height="260">
+    </picture>
+
+
+Projekt-Boxes
+
+  <picture>
+      <source srcset="../images/Projekt-Boxes-mobil.jpg 1x, images/Projekt-Boxes-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Projekt-Boxes-tablet.jpg 1x, images/Projekt-Boxes-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Projekt-Boxes-PC.jpg 1x, images/Projekt-Boxes-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Projekt-Boxes.jpg" alt="Projekt-Boxes" width="270" height="260">
+    </picture>
+
+
+
+
+Inspiration-has-no-Borders
+
+  <picture>
+      <source srcset="../images/Inspiration-has-no-Borders-mobil.jpg 1x, images/Inspiration-has-no-Borders-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Inspiration-has-no-Borders-tablet.jpg 1x, images/Inspiration-has-no-Borders-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Inspiration-has-no-Borders-Boxes-PC.jpg 1x, images/Inspiration-has-no-Borders-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Inspiration-has-no-Borders.jpg" alt="Inspiration-has-no-Borders" width="270" height="260">
+    </picture>
+
+
+
+
+Magazyn-Limited-Edition
+
+
+
+  <picture>
+      <source srcset="../images/Magazyn-Limited-Edition-mobil.jpg 1x, images/Magazyn-Limited-Edition-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Magazyn-Limited-Edition-tablet.jpg 1x, images/Magazyn-Limited-Edition-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Magazyn-Limited-Edition-PC.jpg 1x, images/Magazyn-Limited-Edition-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Magazyn-Limited-Edition.jpg" alt="Magazyn-Limited-Edition" width="270" height="260">
+    </picture>
+
+
+
+
+Projekt-LAB
+
+  <picture>
+      <source srcset="../images/Projekt-LAB-mobil.jpg 1x, images/Projekt-LAB-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Projekt-LAB-tablet.jpg 1x, images/Projekt-LAB-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Projekt-LAB-PC.jpg 1x, images/Projekt-LAB-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Projekt-LAB.jpg" alt="Projekt-LAB" width="270" height="260">
+    </picture>
+
+
+
+
+
+Growing-Business
+
+<picture>
+      <source srcset="../images/Growing-Business-mobil.jpg 1x, images/Growing-Business-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/Growing-Business-tablet.jpg 1x, images/Growing-Business-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/Growing-Business-PC.jpg 1x, images/Growing-Business-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/Growing-Business.jpg" alt="Growing-Business" width="270" height="260">
+    </picture>
+
+
+
+
+
+ !!!!!!!!!!!!!!!!!!!-----------------------WHAT WE DO------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+box 1
+
+<picture>
+      <source srcset="../images/box_1-mobil.jpg 1x, images/box_1-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/box_1-tablet.jpg 1x, images/box_1-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/box_1-PC.jpg 1x, images/box_1-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/box_1.jpg" alt="white_sjeyboard" width="270" height="260">
+    </picture>
+
+
+
+
+box 2
+
+<picture>
+      <source srcset="../images/box_2-mobil.jpg 1x, images/box_2-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/box_2-tablet.jpg 1x, images/box_2-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/box_2-PC.jpg 1x, images/box_2-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/box_2.jpg" alt="white_screen" width="270" height="260">
+    </picture>
+
+
+
+box 2
+
+<picture>
+      <source srcset="../images/box_3-mobil.jpg 1x, images/box_3-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/box_3-tablet.jpg 1x, images/box_3-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/box_3-PC.jpg 1x, images/box_3-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/box_3.jpg" alt="color_screen" width="270" height="260">
+    </picture>
+

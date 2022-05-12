@@ -195,13 +195,14 @@
         <div class="container">
           <div class="team__member-all">
             <div class="team__member">
-              <picture>
-                <source
-                srcset="../images/John_Doe_1-mobil.jpg 1x, images/John_Doe_1-mobil@2x 2x.jpg"
-                media="(min-width: 480px)">
-                <source>
-                </picture>
-              <img src="images/John_Doe_1.jpg" alt="Brown_glasses" width="270" height="260" />
+    <picture>
+      <source srcset="../images/John_Doe_1-mobil.jpg 1x, images/John_Doe_1-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="../images/John_Doe_1-tablet.jpg 1x, images/John_Doe_1-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="../images/John_Doe_1-PC.jpg 1x, images/John_Doe_1-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <!-- <img src="images/John_Doe_1.jpg" alt="Brown_glasses" width="270" height="260"> -->
+    </picture>
+              <img src="images/John_Doe_1.jpg" alt="Brown_glasses"  />
               <h4 class="team__member-name">John Doe</h4>
               <p class="team__member-name-career">Product Designer</p>
 
@@ -239,7 +240,14 @@
               </ul>
             </div>
             <div class="team__member">
-              <img src="images/John_Doe_2.jpg" alt="Light_hair_woman" width="270" height="260" />
+              
+    <picture>
+      <source srcset="/images/John_Doe_2-mobil.jpg 1x, images/John_Doe_2-mobil@2x 2x.jpg" media="(max-width: 767px)">
+      <source srcset="/images/John_Doe_2-tablet.jpg 1x, images/John_Doe_2-tablet@2x 2x.jpg" media="(min-width: 768px)">
+      <source srcset="/images/John_Doe_2-PC.jpg 1x, images/John_Doe_2-PC@2x 2x.jpg" media="(min-width: 1200px)">
+
+      <img src="images/John_Doe_2.jpg" alt="Brown_glasses">   
+    </picture>
               <h4 class="team__member-name">John Doe</h4>
               <p class="team__member-name-career">Frontend Developer</p>
               <ul class="team__member-social-list">
