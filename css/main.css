@@ -600,9 +600,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .people {
-    height: 400px;
+    height: 600px;
     top: 80px;
-    left: 0px;
     border: 1px solid #000000;
     background: #2f303a;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/people-bg-PNG.png");
@@ -616,7 +615,7 @@ img {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .people {
-    height: 400px;
+    height: 600px;
     top: 80px;
     left: 0px;
     border: 1px solid #000000;
@@ -645,9 +644,9 @@ img {
   }
   .people__tittle {
     width: 696px;
-    height: 120px;
+    height: 10px;
     position: absolute;
-    top: 70px;
+    top: 160px;
     font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
@@ -686,7 +685,7 @@ img {
 @media screen and (min-width: 1200px) {
   .button__people {
     position: absolute;
-    margin-top: 260px;
+    margin-top: 350px;
     width: 200px;
     height: 50px;
     border: none;
@@ -1983,6 +1982,9 @@ img {
     position: absolute;
     top: 2708px;
   }
+  .join__tittle-pc {
+    top: 2510px;
+  }
   .join__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2476,6 +2478,28 @@ img {
 
 .policy__text-link {
   color: var(--main-color);
+}
+
+@media screen and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+  .form__all-flex {
+    max-width: 342px;
+    margin-left: -15px;
+  }
+  .form__names-all {
+    width: 370px;
+  }
+  .form__names-feedback {
+    width: 370px;
+  }
+  .user__policy-text {
+    margin-left: 0px;
+    font-size: 12px;
+    line-height: 1.667px;
+  }
 }
 
 .button-form-send {
