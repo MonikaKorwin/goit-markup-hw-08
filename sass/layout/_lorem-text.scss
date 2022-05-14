@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px)  {
+@media screen and (max-width: 767px) {
   .lorem__ipsum {
     // height: 884px;
     top: 610px;
@@ -80,12 +80,12 @@
     display: flex;
     flex-wrap: wrap;
     height: 372px;
-    
+
     top: 690px;
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-     position: absolute;
+    position: absolute;
     margin: auto;
   }
 }
@@ -111,9 +111,6 @@
       line-height: 1.143;
       letter-spacing: 0.03em;
       text-transform: uppercase;
-
-      
-
       flex-basis: 270px;
     }
 
@@ -130,19 +127,18 @@
       color: #757575;
       text-transform: none;
       margin-top: 10px;
+      width: 270px;
     }
   }
 
   .container__lorem-ipsum {
-    display:flex;
+    display: flex;
     justify-content: center;
-    position: absolute;
-    left: 30px;
-  
+    padding-left: 30px;
+
     align-items: center;
 
     margin-bottom: 94px;
-    margin-top: -950px;
   }
 }
 

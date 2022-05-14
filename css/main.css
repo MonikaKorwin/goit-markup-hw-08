@@ -149,7 +149,7 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .navigation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -711,7 +711,7 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .lorem__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -834,7 +834,7 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 767px) {
   .lorem__ipsum {
     top: 610px;
     font-family: var(--main-font);
@@ -974,6 +974,7 @@ img {
     color: #757575;
     text-transform: none;
     margin-top: 10px;
+    width: 270px;
   }
   .container__lorem-ipsum {
     display: -webkit-box;
@@ -982,13 +983,11 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: absolute;
-    left: 30px;
+    padding-left: 30px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 94px;
-    margin-top: -950px;
   }
 }
 
@@ -1621,7 +1620,7 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer-html {
     padding-top: 60px;
     height: 603px;
@@ -1839,7 +1838,7 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .join {
     display: -webkit-box;
     display: -ms-flexbox;
