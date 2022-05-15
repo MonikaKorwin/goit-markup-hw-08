@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .lorem__ipsum {
     // height: 884px;
     top: 610px;
@@ -80,19 +80,19 @@
     display: flex;
     flex-wrap: wrap;
     height: 372px;
-
+    
     top: 690px;
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    position: absolute;
+     position: absolute;
     margin: auto;
   }
 }
 
 // -------------PC------------
 @media screen and (min-width: 1200px) {
-  .lorem__ipsum {
+ .lorem__ipsum {
     height: 101px;
     top: 774px;
     font-family: var(--main-font);
