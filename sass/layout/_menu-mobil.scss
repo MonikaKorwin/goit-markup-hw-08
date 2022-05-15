@@ -5,9 +5,9 @@
     left: 0;
     min-width: 100%;
     height: auto;
-   
-    padding-top:48px;
-    padding-left:40px;
+
+    padding-top: 48px;
+    padding-left: 40px;
     background-color: white;
   }
 
@@ -68,12 +68,12 @@
     display: flex;
     text-decoration: none;
     padding-top: 64px;
-   
     top: 0;
     left: 0;
     max-width: 100%;
     height: auto;
   }
+  // xx
 
   .menu-social {
     color: var(--main-color);
@@ -111,8 +111,6 @@
   //   transform: translate(15%, 20%);
   // }
 }
-
-
 
 // @media screen and (max-width: 767px) {
 //   .menu__links {
